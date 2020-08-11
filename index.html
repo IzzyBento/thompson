@@ -39,11 +39,14 @@
         </div>
 
         <div class="col-lg-6">
-
           <div class="title-image">
-            <img class="profile-image" src="images/thompsonCharlieProfilePic3.png" alt="Thompson Charlie">
-          </div>
 
+
+            <img src="images/thompsonCharlieProfilePic3.png" class="profile-image" alt="Thompson Charlie">
+            <!-- <img src="images/thompsonCharlieProfilePic3.png" class="img-fluid" alt="Thompson Charlie"> -->
+
+
+          </div>
         </div>
 
       </div>
@@ -52,12 +55,10 @@
 
   </section>
 
-
   <!-- Intro Bar -->
   <div class="intro">
     Author of Shattered 1: The Impact and Mindscapes, Counsellor.
   </div>
-
 
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark">
@@ -75,12 +76,32 @@
         <li class="nav-item">
           <a class="nav-link" href="about.html">ABOUT</a>
         </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="news.html">NEWS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">EVENTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">GALLERY</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="books.html">BOOKS</a>
         </li>
-        <!-- <li class="nav-item">
+        <li class="nav-item">
           <a class="nav-link" href="shop.html">SHOP</a>
-        </li> -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="extras.html">EXTRAS</a>
+        </li>
+
+
+
         <li class="nav-item">
           <a class="nav-link" href="contact.html">CONTACT</a>
         </li>
@@ -88,10 +109,6 @@
     </div>
 
   </nav>
-
-
-
-
 
   <section class="news-section">
 
@@ -162,7 +179,6 @@
     </div>
   </section>
 
-
   <!-- Books -->
   <div class="books-heading">
     BOOKS
@@ -171,15 +187,31 @@
   <section class="colored-section" id="books">
     <div class="container-fluid book-box">
 
-      <a href="shattered.html">
+
+      <figure class="figure book-figure">
+        <a href="shattered.html">
+          <img src="images/shattered-book-cover.jpg" class="figure-img img-fluid book-img" alt="Shattered book cover">
+        </a>
+        <figcaption class="figure-caption book-caption">SHATTERED 1: THE IMPACT</figcaption>
+      </figure>
+
+      <figure class="figure book-figure">
+        <a href="mindscapes.html">
+          <img src="images/mindscapes-book-cover.jpg" class="figure-img img-fluid book-img" alt="Mindscapes book cover">
+        </a>
+        <figcaption class="figure-caption book-caption">MINDSCAPES VOLUME 1</figcaption>
+      </figure>
+
+
+
+      <!-- <a href="shattered.html">
         <img class="book-img" src="images/shattered-book-cover.jpg" alt="Shattered book cover">
-      </a>
-      <a href="mindscapes.html">
+      </a> -->
+      <!-- <a href="mindscapes.html">
         <img class="book-img" src="images/mindscapes-book-cover.jpg" alt="Mindscapes book cover">
-      </a>
+      </a> -->
 
     </div>
-
   </section>
 
 
@@ -189,7 +221,9 @@
       <i class="social-icon fab fa-facebook-f"></i>
       <i class="social-icon fab fa-twitter"></i>
       <i class="social-icon fab fa-instagram"></i>
-      <i class="social-icon fas fa-envelope"></i>
+      <a href="contact.html">
+        <i class="social-icon fas fa-envelope"></i>
+      </a>
       <p>© Copyright 2020 Thompson Charlie</p>
     </div>
   </footer>
