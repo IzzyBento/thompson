@@ -155,19 +155,6 @@ p {
 
 .profile-image {
   width: 60%;
-
-
-
-  /* width: 45%;
-  position: absolute; */
-  /* bottom: 0; */
-  /* right: 30%
-
-
-
-  /* position: absolute;
-  bottom: 0;  */
-
 }
 
 
@@ -178,7 +165,7 @@ p {
   padding: 40px 50px 200px 50px;
   margin-top: 40px;
   margin-bottom: 40px;
-  width: 40%;
+  width: 50%;
 }
 
 .about-image {
@@ -194,12 +181,20 @@ p {
 
 /* News Section */
 .news-container {
-  padding-top: 40px;
-  padding-bottom: 0;
+  /* padding-top: 40px; */
+  /* padding-bottom: 0; */
+
+  padding: 30px 50px 30px 50px;
+  width: 50%;
+}
+
+.media-stories-container {
+  padding: 30px 50px 30px 50px;
+  width: 50%;
 }
 
 .news-image {
-  width: 80%;
+  width: 100%;
 }
 
 .news-text {
@@ -243,11 +238,11 @@ p {
 
 /* Books Section */
 .books-container {
-  /* width: 100px;
-  height: 100px;
-  position: relative; */
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+
+  padding: 20px 30px 20px 30px;
+  width: 50%;
 }
 
 .books-heading {
@@ -348,8 +343,10 @@ a.buy-link:hover {
 
 .book-desc {
   text-align: justify;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
 }
 
 .book-box {
@@ -358,9 +355,8 @@ a.buy-link:hover {
 
 .book-holder {
   padding-top: 50px;
-  width: 80%;
+  width: 78%;
 }
-
 
 @media (max-width: 1028px) {
 
@@ -391,11 +387,37 @@ a.buy-link:hover {
 
   .about-container {
     width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .news-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .media-stories-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .books-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .contact-section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .book-holder {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
