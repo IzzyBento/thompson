@@ -296,10 +296,38 @@ a.read-more-link:hover {
   margin: 60px 20px 0;
 }
 
+
+.book-facebook-icon {
+  color: #3578e5;
+  margin-right: .4rem;
+}
+
+
+.book-facebook-link-container {
+  margin-top: 1rem;
+  text-align: left;
+  font-weight: 700;
+}
+
+.book-facebook-link {
+  /* color: #8F8F8F; */
+  color: #ea9215;
+}
+
+a.book-facebook-link:hover {
+  color: #3a4750;
+  text-decoration: none;
+}
+
+
+
+
 .buy-button {
   width: 160px;
-  margin: 0 auto;
-  /* color: #fff; */
+  /* margin: .5rem auto; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .5rem;
   background-color: #303841;
   font-size: 1.2rem;
   font-weight: 700;
@@ -308,6 +336,13 @@ a.read-more-link:hover {
   position: relative;
   top: 25px;
 }
+
+.buying-options {
+  font-style: italic;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
 
 /* .buy-button :hover {
   color: grey;
@@ -377,13 +412,21 @@ a.buy-link:hover {
   margin-right: 100px; */
 }
 
-/* .book-box {
-  padding-top: 0px;
-} */
+.book-box {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
 
 .book-holder {
   padding-top: 50px;
   width: 78%;
+}
+
+.book-caption {
+  margin-top: 5px;
+  color: #303841;
+  font-weight: 900;
+  font-size: .8rem;
 }
 
 @media (max-width: 1028px) {
@@ -454,5 +497,10 @@ a.buy-link:hover {
   .book-desc {
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .book-facebook-link-container {
+    margin-bottom: .7rem;
+    text-align: center;
   }
 }
